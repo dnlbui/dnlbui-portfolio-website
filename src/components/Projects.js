@@ -11,7 +11,7 @@ function Projects() {
   return (
     <div className="container" id="projects" >
       <div
-        className="row align-items-center justify-content-center"
+        className="row justify-content-center"
         data-aos="zoom-in-up"
         
       >
@@ -21,8 +21,8 @@ function Projects() {
           </h2>
         </div>
 
-        <div className="col mt-3 align-self-center col-sm-6 col-md-3">
-          <div class="card" style={{ width: 230 }}>
+        <div className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center">
+          <div class="card" style={{ width: 365 }}>
             <img
               src="https://loremflickr.com/640/360"
               class="card-img-top"
@@ -41,8 +41,8 @@ function Projects() {
           </div>
         </div>
 
-        <div className="col mt-3 align-self-center col-sm-6 col-md-3">
-          <div class="card" style={{ width: 230 }}>
+        <div className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center">
+          <div class="card" style={{ width: 365 }}>
             <img
               src="https://loremflickr.com/640/360"
               class="card-img-top"
@@ -61,8 +61,8 @@ function Projects() {
           </div>
         </div>
 
-        <div className="col mt-3 align-self-center col-sm-6 col-md-3">
-          <div class="card" style={{ width: 230 }}>
+        <div className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center">
+          <div class="card" style={{ width: 365 }}>
             <img
               src="https://loremflickr.com/640/360"
               class="card-img-top"
@@ -81,8 +81,8 @@ function Projects() {
           </div>
         </div>
 
-        <div className="col mt-3 align-self-center col-sm-6 col-md-3">
-          <div class="card" style={{ width: 230 }}>
+        <div className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center">
+          <div class="card" style={{ width: 365 }}>
             <img
               src="https://loremflickr.com/640/360"
               class="card-img-top"
@@ -101,8 +101,8 @@ function Projects() {
           </div>
         </div>
 
-        <div className="col mt-3 align-self-center col-sm-6 col-md-3">
-          <div class="card" style={{ width: 230 }}>
+        <div className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center">
+          <div class="card" style={{ width: 365 }}>
             <img
               src="https://loremflickr.com/640/360"
               class="card-img-top"
@@ -121,8 +121,8 @@ function Projects() {
           </div>
         </div>
 
-        <div className="col mt-3 align-self-center col-sm-6 col-md-3">
-          <div class="card" style={{ width: 230 }}>
+        <div className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center">
+          <div class="card" style={{ width: 365 }}>
             <img
               src="https://loremflickr.com/640/360"
               class="card-img-top"

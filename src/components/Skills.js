@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import reduxIcon from "../images/redux.png";
+import Footer from "./Footer";
 
 function Skills() {
   useEffect(() => {
@@ -33,6 +34,7 @@ function Skills() {
             <li class="list-group-item"><i class="lab la-adobe la-3x"></i>Adobe.LightRoom</li>
           </ul>
         </div>
+        <Footer />
       </div>
     </div>
   );

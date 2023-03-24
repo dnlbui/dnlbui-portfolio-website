@@ -14,7 +14,7 @@ function App() {
       <AboutMe  />
       <Projects />
       <Skills />
-      <Footer />
+      
     </div>
   );
 }
