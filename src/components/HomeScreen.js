@@ -9,24 +9,49 @@ function HomeScreen() {
   }, []);
 
   return (
-    <div className="col-12 home-background">
-      <div id="lead">
-        <div id="lead-content">
-          <h1>Daniel Bui</h1>
-          <h2>FullStack Software Engineer</h2>
-          <i class="lab la-linkedin-in la-3x" data-aos="zoom-in-up"></i>
-          <i class="lab la-github la-3x" data-aos="zoom-in-up"></i>
-          <i class="lar la-envelope la-3x" data-aos="zoom-in-up"></i>
-        </div>
-        <div id="lead-overlay"></div>
-      </div>
-      <div id="lead-down">
+    <div className="container-fluid">
+      <div className="row">
+        <div className="col-12 home-background">
+          <div id="lead">
+            <div id="lead-content">
+              <h1>Daniel Bui</h1>
+              <h2>FullStack Software Engineer</h2>
+              <a
+                href="https://www.linkedin.com/in/dnlbui/"
+                target="_blank"
+                rel="noopener noreferrer"
+                id='my-link'
+              >
+                <i class="lab la-linkedin-in la-3x" data-aos="zoom-in-up"></i>
+              </a>
+              <a
+                href="https://github.com/dnlbui"
+                target="_blank"
+                rel="noopener noreferrer"
+                id='my-link'
+              >
+              <i class="lab la-github la-3x" data-aos="zoom-in-up"></i>
+              </a>
+              <a
+                href="mailto:dnlbui@proton.me"
+                target="_blank"
+                rel="noopener noreferrer"
+                id='my-link'
+              >
+              <i class="lar la-envelope la-3x" data-aos="zoom-in-up"></i>
+              </a>
+            </div>
+            <div id="lead-overlay"></div>
+          </div>
+          <div id="lead-down">
             <Link rel="nofollow" to="about" spy={true} smooth={true}>
               <span>
                 <i class="las la-angle-double-down la-3x"></i>
               </span>
             </Link>
           </div>
+        </div>
+      </div>
     </div>
   );
 }
