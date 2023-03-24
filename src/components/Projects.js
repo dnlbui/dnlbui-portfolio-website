@@ -10,7 +10,7 @@ function Projects() {
 
   return (
     <div className="container" id="projects">
-      <div className="row justify-content-center" data-aos="zoom-in-up">
+      <div className="card-container row justify-content-center" data-aos="zoom-in-up">
         <div className="col-md-12 align-self-center">
           <h2 className="heading">
             <i class="las la-laptop-code la-3x"></i> Projects
@@ -18,7 +18,7 @@ function Projects() {
         </div>
 
         <div className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center">
-          <div class="card" style={{ width: 365 }}>
+          <div class="card">
             <img
               src="https://loremflickr.com/640/360"
               class="card-img-top"
@@ -38,7 +38,7 @@ function Projects() {
         </div>
 
         <div className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center">
-          <div class="card" style={{ width: 365 }}>
+          <div class="card">
             <img
               src="https://loremflickr.com/640/360"
               class="card-img-top"
@@ -58,7 +58,7 @@ function Projects() {
         </div>
 
         <div className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center">
-          <div class="card" style={{ width: 365 }}>
+          <div class="card">
             <img
               src="https://loremflickr.com/640/360"
               class="card-img-top"
@@ -78,7 +78,7 @@ function Projects() {
         </div>
 
         <div className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center">
-          <div class="card" style={{ width: 365 }}>
+          <div class="card">
             <img
               src="https://loremflickr.com/640/360"
               class="card-img-top"
@@ -98,7 +98,7 @@ function Projects() {
         </div>
 
         <div className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center">
-          <div class="card" style={{ width: 365 }}>
+          <div class="card">
             <img
               src="https://loremflickr.com/640/360"
               class="card-img-top"
@@ -118,7 +118,7 @@ function Projects() {
         </div>
 
         <div className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center">
-          <div class="card" style={{ width: 365 }}>
+          <div class="card">
             <img
               src="https://loremflickr.com/640/360"
               class="card-img-top"
@@ -151,12 +151,3 @@ function Projects() {
 
 export default Projects;
 
-{
-  /* <div className="arrow">
-<Link rel="nofollow" to="projects" spy={true} smooth={true} offset={-100}>
-  <span>
-    <i class="las la-angle-down la-3x"></i>
-  </span>
-</Link>
-</div> */
-}
