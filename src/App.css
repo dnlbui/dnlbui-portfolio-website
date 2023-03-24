@@ -79,7 +79,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: rgba(225, 99, 40, 0.675);
+  color: rgb(255, 124, 63);
   border-radius: 50px;
 }
 
@@ -100,12 +100,12 @@ a:hover {
   display: inline-block;
   color: #0c0a0a;
   padding: 15px 25px;
-  border: 3px solid rgba(225, 99, 40, 0.24);
+  border: 3px solid rgb(255, 124, 63);
   border-radius: 30px;
   transition: 0.5s ease all;
 }
 .btn-rounded-white:hover {
-  color: rgba(225, 99, 40, 0.675);
+  color: rgb(255, 124, 63);
   background: #000000;
   text-decoration: none;
 }
@@ -130,7 +130,7 @@ a:hover {
 }
 
 .list-group-item {
-  background-color: rgba(225, 99, 40, 0.24);
+  background-color: rgb(255, 124, 63);
 }
 
 .shadow {
@@ -145,7 +145,7 @@ a:hover {
 }
 
 #about-desc {
-  background: rgba(225, 99, 40, 0.24);
+  background: rgb(255, 124, 63);
   padding: 2.5%;
   color: #000000;
   border-radius: 15px;
