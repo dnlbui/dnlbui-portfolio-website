@@ -4,7 +4,6 @@ import HomeScreen from "./components/HomeScreen";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,8 +19,3 @@ function App() {
 }
 
 export default App;
-
-
-/*       <div className="row mt-5">
-        <Footer />
-      </div> */

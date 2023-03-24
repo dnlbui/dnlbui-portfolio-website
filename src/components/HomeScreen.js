@@ -20,7 +20,7 @@ function HomeScreen() {
                 href="https://www.linkedin.com/in/dnlbui/"
                 target="_blank"
                 rel="noopener noreferrer"
-                id='my-link'
+                id="my-link"
               >
                 <i class="lab la-linkedin-in la-3x" data-aos="zoom-in-up"></i>
               </a>
@@ -28,17 +28,17 @@ function HomeScreen() {
                 href="https://github.com/dnlbui"
                 target="_blank"
                 rel="noopener noreferrer"
-                id='my-link'
+                id="my-link"
               >
-              <i class="lab la-github la-3x" data-aos="zoom-in-up"></i>
+                <i class="lab la-github la-3x" data-aos="zoom-in-up"></i>
               </a>
               <a
                 href="mailto:dnlbui@proton.me"
                 target="_blank"
                 rel="noopener noreferrer"
-                id='my-link'
+                id="my-link"
               >
-              <i class="lar la-envelope la-3x" data-aos="zoom-in-up"></i>
+                <i class="lar la-envelope la-3x" data-aos="zoom-in-up"></i>
               </a>
             </div>
             <div id="lead-overlay"></div>

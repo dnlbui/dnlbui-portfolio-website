@@ -9,12 +9,8 @@ function Projects() {
   }, []);
 
   return (
-    <div className="container" id="projects" >
-      <div
-        className="row justify-content-center"
-        data-aos="zoom-in-up"
-        
-      >
+    <div className="container" id="projects">
+      <div className="row justify-content-center" data-aos="zoom-in-up">
         <div className="col-md-12 align-self-center">
           <h2 className="heading">
             <i class="las la-laptop-code la-3x"></i> Projects
@@ -149,7 +145,6 @@ function Projects() {
           </span>
         </Link>
       </div>
-
     </div>
   );
 }
