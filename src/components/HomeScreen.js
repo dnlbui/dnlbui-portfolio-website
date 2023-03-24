@@ -9,7 +9,7 @@ function HomeScreen() {
   }, []);
 
   return (
-    <div className="container-fluid">
+    <div className="container-fluid" id="homescreen">
       <div className="row">
         <div className="col-12 home-background">
           <div id="lead">
