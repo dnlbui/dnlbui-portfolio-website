@@ -3,6 +3,8 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import reduxIcon from "../images/redux.png";
 import Footer from "./Footer";
+import expressIcon from "../images/express.png";
+import mongoDBIcon from "../images/mongoDB.png";
 
 function Skills() {
   useEffect(() => {
@@ -16,7 +18,7 @@ function Skills() {
           <h2 className="heading">
             <i className="las la-toolbox la-1x"></i>Skills
           </h2>
-          <ul className="list-group list-group-horizontal-xl ">
+          <ul className="list-group list-group-horizontal-xl mt-5">
             <li className="list-group-item flex-fill">
               <i className="lab la-html5 la-3x"></i> HTML
             </li>
@@ -29,6 +31,9 @@ function Skills() {
             <li className="list-group-item flex-fill">
               <i className="lab la-react la-3x"></i>React
             </li>
+            <li className="list-group-item">
+              <i className="lab la-react la-3x"></i>React.Native
+            </li>
             <li className="list-group-item flex-fill">
               <img src={reduxIcon} alt="Redux Icon" /> Redux
             </li>
@@ -40,16 +45,22 @@ function Skills() {
               <i className="lab la-figma la-3x"></i>Figma
             </li>
           </ul>
-          <ul className="list-group list-group-horizontal-xl">
+
+          <ul className="list-group list-group-horizontal-xl mt-5">
+            <li className="list-group-item flex-fill">
+              <img src={expressIcon} alt="Redux Icon" /> Express.js
+            </li>
             <li className="list-group-item flex-fill">
               <i className="lab la-node la-3x"></i>Node
             </li>
             <li className="list-group-item flex-fill">
+            <img src={mongoDBIcon} alt="Redux Icon" /> 
+              MongoDB
+            </li>
+            <li className="list-group-item flex-fill">
               <i className="lab la-github la-3x"></i>Git/GitHub
             </li>
-            <li className="list-group-item">
-              <i className="lab la-react la-3x"></i>React.Native
-            </li>
+
             <li className="list-group-item flex-fill">
               <i className="las la-file-export la-3x"></i>RESTful.APIs
             </li>

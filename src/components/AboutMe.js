@@ -55,7 +55,7 @@ function AboutMe() {
             provides me with the opportunity.
           </p>
           <div className="arrow">
-            <Link rel="nofollow" to="projects" spy={true} smooth={true} offset={-325}>
+            <Link rel="nofollow" to="projects" spy={true} smooth={true} offset={-280}>
               <span>
                 <i className="las la-angle-down la-3x"></i>
               </span>
