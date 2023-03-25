@@ -139,7 +139,7 @@ function Projects() {
       </div>
 
       <div className="arrow">
-        <Link rel="nofollow" to="skills" spy={true} smooth={true} offset={-100}>
+        <Link rel="nofollow" to="skills" spy={true} smooth={true}>
           <span>
             <i class="las la-angle-down la-3x"></i>
           </span>

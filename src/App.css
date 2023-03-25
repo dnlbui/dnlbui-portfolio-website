@@ -79,8 +79,12 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: rgb(255, 124, 63);
+  color: rgb(226, 124, 77);
   border-radius: 50px;
+}
+
+.col-md-4 {
+  padding-bottom: 5px;
 }
 
 .home-background {
@@ -100,12 +104,12 @@ a:hover {
   display: inline-block;
   color: #0c0a0a;
   padding: 15px 25px;
-  border: 3px solid rgb(255, 124, 63);
+  border: 3px solid rgb(226, 124, 77);
   border-radius: 30px;
   transition: 0.5s ease all;
 }
 .btn-rounded-white:hover {
-  color: rgb(255, 124, 63);
+  color: rgb(226, 124, 77);
   background: #000000;
   text-decoration: none;
 }
@@ -130,7 +134,7 @@ a:hover {
 }
 
 .list-group-item {
-  background-color: rgb(255, 124, 63);
+  background-color: rgb(226, 124, 77);
 }
 
 .shadow {
@@ -139,13 +143,13 @@ a:hover {
 
 #about .arrow {
   position: absolute;
-  bottom: 10px; /* adjust the value to position the arrow as desired */
+  bottom: 3px; /* adjust the value to position the arrow as desired */
   left: 50%;
   transform: translateX(-50%);
 }
 
 #about-desc {
-  background: rgb(255, 124, 63);
+  background: rgb(226, 124, 77);
   padding: 2.5%;
   color: #000000;
   border-radius: 15px;
