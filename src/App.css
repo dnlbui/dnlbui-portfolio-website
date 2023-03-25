@@ -146,16 +146,25 @@ a:hover {
 }
 
 #about-desc {
+  position: relative;
   background: rgb(226, 124, 77);
-
   color: #000000;
   border-radius: 15px;
   font-size: 15px;
   line-height: 1.5;
   padding: 20px 20px; /* Add some padding to the left and right sides */
-
   box-sizing: border-box; /* Make sure padding doesn't increase the element's width */
-  max-width: 600px; /* Set a maximum width */
+}
+
+@media (max-width: 767px) {
+  #about-desc {
+    position: relative;
+    padding: 30px 15px 0;
+  }
+}
+
+h2.heading {
+  margin-top: 60px;
 }
 
 #lead-content {
