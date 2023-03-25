@@ -22,7 +22,10 @@ function HomeScreen() {
                 rel="noopener noreferrer"
                 id="my-link"
               >
-                <i className="lab la-linkedin-in la-3x" data-aos="zoom-in-up"></i>
+                <i
+                  className="lab la-linkedin-in la-3x"
+                  data-aos="zoom-in-up"
+                ></i>
               </a>
               <a
                 href="https://github.com/dnlbui"

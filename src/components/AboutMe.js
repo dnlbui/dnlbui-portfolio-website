@@ -10,11 +10,7 @@ function AboutMe() {
 
   return (
     <div className="container" id="about" style={{ height: "100vh" }}>
-      <div
-        className="row align-items-center"
-        data-aos="zoom-in-up"
-        style={{ height: "100vh" }}
-      >
+      <div className="row align-items-center" style={{ height: "100vh" }}>
         <div className="col-md-4 ">
           <h2 className="heading">
             <i className="las la-user-ninja la-3x"></i> About Me
@@ -30,7 +26,7 @@ function AboutMe() {
             My Resume
           </a>
         </div>
-        <div className="col-md-8" id="about-desc">
+        <div className="col-md-8" id="about-desc" data-aos="zoom-in-up">
           <p>
             In 2020 I was curious about blockchain after listening to a podcast,
             Crypto 101. Since then, smart contracts exposed me to decentralized
@@ -55,7 +51,7 @@ function AboutMe() {
             provides me with the opportunity.
           </p>
           <div className="arrow">
-            <Link rel="nofollow" to="projects" spy={true} smooth={true} offset={-280}>
+            <Link rel="nofollow" to="projects" spy={true} smooth={true}>
               <span>
                 <i className="las la-angle-down la-3x"></i>
               </span>

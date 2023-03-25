@@ -9,15 +9,21 @@ function Projects() {
   }, []);
 
   return (
-    <div className="container" id="projects" data-aos="zoom-in-up" style={{minHeight: "100vh"}}>
-      <div className="card-container row justify-content-center" style={{minHeight: "100vh"}}>
+    <div className="container" id="projects">
+      <div
+        className="card-container row justify-content-center"
+        style={{ minHeight: "100vh" }}
+      >
         <div className="col-md-12 align-self-center">
           <h2 className="heading">
             <i className="las la-laptop-code la-3x"></i> Projects
           </h2>
         </div>
 
-        <div className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center">
+        <div
+          className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center"
+          data-aos="zoom-in-up"
+        >
           <div className="card">
             <img
               src="https://loremflickr.com/640/360"
@@ -37,7 +43,10 @@ function Projects() {
           </div>
         </div>
 
-        <div className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center">
+        <div
+          className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center"
+          data-aos="zoom-in-up"
+        >
           <div className="card">
             <img
               src="https://loremflickr.com/640/360"
@@ -57,7 +66,10 @@ function Projects() {
           </div>
         </div>
 
-        <div className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center">
+        <div
+          className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center"
+          data-aos="zoom-in-up"
+        >
           <div className="card">
             <img
               src="https://loremflickr.com/640/360"
@@ -77,7 +89,10 @@ function Projects() {
           </div>
         </div>
 
-        <div className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center">
+        <div
+          className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center"
+          data-aos="zoom-in-up"
+        >
           <div className="card">
             <img
               src="https://loremflickr.com/640/360"
@@ -97,7 +112,10 @@ function Projects() {
           </div>
         </div>
 
-        <div className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center">
+        <div
+          className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center"
+          data-aos="zoom-in-up"
+        >
           <div className="card">
             <img
               src="https://loremflickr.com/640/360"
@@ -117,7 +135,10 @@ function Projects() {
           </div>
         </div>
 
-        <div className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center">
+        <div
+          className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center"
+          data-aos="zoom-in-up"
+        >
           <div className="card">
             <img
               src="https://loremflickr.com/640/360"
@@ -150,4 +171,3 @@ function Projects() {
 }
 
 export default Projects;
-

@@ -12,13 +12,16 @@ function Skills() {
   }, []);
 
   return (
-    <div className="container" id="skills" data-aos="zoom-in-up">
+    <div className="container" id="skills">
       <div className="row align-items-center" style={{ height: "100vh" }}>
         <div className="col-12">
           <h2 className="heading">
             <i className="las la-toolbox la-1x"></i>Skills
           </h2>
-          <ul className="list-group list-group-horizontal-xl mt-5">
+          <ul
+            className="list-group list-group-horizontal-xl mt-5"
+            data-aos="zoom-in-up"
+          >
             <li className="list-group-item flex-fill">
               <i className="lab la-html5 la-3x"></i> HTML
             </li>
@@ -46,7 +49,10 @@ function Skills() {
             </li>
           </ul>
 
-          <ul className="list-group list-group-horizontal-xl mt-5">
+          <ul
+            className="list-group list-group-horizontal-xl mt-5"
+            data-aos="zoom-in-up"
+          >
             <li className="list-group-item flex-fill">
               <img src={expressIcon} alt="Redux Icon" /> Express.js
             </li>
@@ -54,7 +60,7 @@ function Skills() {
               <i className="lab la-node la-3x"></i>Node
             </li>
             <li className="list-group-item flex-fill">
-            <img src={mongoDBIcon} alt="Redux Icon" /> 
+              <img src={mongoDBIcon} alt="Redux Icon" />
               MongoDB
             </li>
             <li className="list-group-item flex-fill">
