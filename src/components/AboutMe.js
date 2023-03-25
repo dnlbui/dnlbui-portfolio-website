@@ -17,7 +17,7 @@ function AboutMe() {
       >
         <div className="col-md-4 ">
           <h2 className="heading">
-            <i class="las la-user-ninja la-3x"></i> About Me
+            <i className="las la-user-ninja la-3x"></i> About Me
           </h2>
           <a
             aria-label="resume"
@@ -55,9 +55,9 @@ function AboutMe() {
             provides me with the opportunity.
           </p>
           <div className="arrow">
-            <Link rel="nofollow" to="projects" spy={true} smooth={true}>
+            <Link rel="nofollow" to="projects" spy={true} smooth={true} offset={-325}>
               <span>
-                <i class="las la-angle-down la-3x"></i>
+                <i className="las la-angle-down la-3x"></i>
               </span>
             </Link>
           </div>

@@ -22,7 +22,7 @@ function HomeScreen() {
                 rel="noopener noreferrer"
                 id="my-link"
               >
-                <i class="lab la-linkedin-in la-3x" data-aos="zoom-in-up"></i>
+                <i className="lab la-linkedin-in la-3x" data-aos="zoom-in-up"></i>
               </a>
               <a
                 href="https://github.com/dnlbui"
@@ -30,7 +30,7 @@ function HomeScreen() {
                 rel="noopener noreferrer"
                 id="my-link"
               >
-                <i class="lab la-github la-3x" data-aos="zoom-in-up"></i>
+                <i className="lab la-github la-3x" data-aos="zoom-in-up"></i>
               </a>
               <a
                 href="mailto:dnlbui@proton.me"
@@ -38,7 +38,7 @@ function HomeScreen() {
                 rel="noopener noreferrer"
                 id="my-link"
               >
-                <i class="lar la-envelope la-3x" data-aos="zoom-in-up"></i>
+                <i className="lar la-envelope la-3x" data-aos="zoom-in-up"></i>
               </a>
             </div>
             <div id="lead-overlay"></div>
@@ -46,7 +46,7 @@ function HomeScreen() {
           <div id="lead-down">
             <Link rel="nofollow" to="about" spy={true} smooth={true}>
               <span>
-                <i class="las la-angle-double-down la-3x"></i>
+                <i className="las la-angle-double-down la-3x"></i>
               </span>
             </Link>
           </div>

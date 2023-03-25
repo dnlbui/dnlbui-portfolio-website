@@ -9,28 +9,28 @@ function Projects() {
   }, []);
 
   return (
-    <div className="container" id="projects">
-      <div className="card-container row justify-content-center" data-aos="zoom-in-up">
+    <div className="container" id="projects" data-aos="zoom-in-up" style={{minHeight: "100vh"}}>
+      <div className="card-container row justify-content-center" style={{minHeight: "100vh"}}>
         <div className="col-md-12 align-self-center">
           <h2 className="heading">
-            <i class="las la-laptop-code la-3x"></i> Projects
+            <i className="las la-laptop-code la-3x"></i> Projects
           </h2>
         </div>
 
         <div className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center">
-          <div class="card">
+          <div className="card">
             <img
               src="https://loremflickr.com/640/360"
-              class="card-img-top"
+              className="card-img-top"
               alt="..."
             />
-            <div class="card-body ">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
+            <div className="card-body ">
+              <h5 className="card-title">Card title</h5>
+              <p className="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="#" class="btn btn-primary">
+              <a href="/" className="btn btn-primary">
                 Go somewhere
               </a>
             </div>
@@ -38,19 +38,19 @@ function Projects() {
         </div>
 
         <div className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center">
-          <div class="card">
+          <div className="card">
             <img
               src="https://loremflickr.com/640/360"
-              class="card-img-top"
+              className="card-img-top"
               alt="..."
             />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <p className="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="#" class="btn btn-primary">
+              <a href="/" className="btn btn-primary">
                 Go somewhere
               </a>
             </div>
@@ -58,19 +58,19 @@ function Projects() {
         </div>
 
         <div className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center">
-          <div class="card">
+          <div className="card">
             <img
               src="https://loremflickr.com/640/360"
-              class="card-img-top"
+              className="card-img-top"
               alt="..."
             />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <p className="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="#" class="btn btn-primary">
+              <a href="/" className="btn btn-primary">
                 Go somewhere
               </a>
             </div>
@@ -78,19 +78,19 @@ function Projects() {
         </div>
 
         <div className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center">
-          <div class="card">
+          <div className="card">
             <img
               src="https://loremflickr.com/640/360"
-              class="card-img-top"
+              className="card-img-top"
               alt="..."
             />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <p className="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="#" class="btn btn-primary">
+              <a href="/" className="btn btn-primary">
                 Go somewhere
               </a>
             </div>
@@ -98,19 +98,19 @@ function Projects() {
         </div>
 
         <div className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center">
-          <div class="card">
+          <div className="card">
             <img
               src="https://loremflickr.com/640/360"
-              class="card-img-top"
+              className="card-img-top"
               alt="..."
             />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <p className="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="#" class="btn btn-primary">
+              <a href="/" className="btn btn-primary">
                 Go somewhere
               </a>
             </div>
@@ -118,19 +118,19 @@ function Projects() {
         </div>
 
         <div className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center">
-          <div class="card">
+          <div className="card">
             <img
               src="https://loremflickr.com/640/360"
-              class="card-img-top"
+              className="card-img-top"
               alt="..."
             />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <p className="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="#" class="btn btn-primary">
+              <a href="/" className="btn btn-primary">
                 Go somewhere
               </a>
             </div>
@@ -141,7 +141,7 @@ function Projects() {
       <div className="arrow">
         <Link rel="nofollow" to="skills" spy={true} smooth={true}>
           <span>
-            <i class="las la-angle-down la-3x"></i>
+            <i className="las la-angle-down la-3x"></i>
           </span>
         </Link>
       </div>

@@ -10,7 +10,7 @@ function Footer() {
 
         <Link rel="nofollow" to="homescreen" spy={true} smooth={true}>
           <span>
-            <i class="las la-angle-double-up la-3x"></i>
+            <i className="las la-angle-double-up la-3x"></i>
           </span>
         </Link>
 
