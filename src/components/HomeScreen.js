@@ -17,6 +17,17 @@ function HomeScreen() {
               <h1>Daniel Bui</h1>
               <h2>FullStack Software Engineer</h2>
               <a
+                href="https://github.com/dnlbui/resume/blob/main/Daniel%20Bui%20Resume%202023%203-16-2023.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                id="my-link"
+              >
+                <i
+                  className="las la-clipboard-list la-3x"
+                  data-aos="zoom-in-up"
+                ></i>
+              </a>
+              <a
                 href="https://www.linkedin.com/in/dnlbui/"
                 target="_blank"
                 rel="noopener noreferrer"

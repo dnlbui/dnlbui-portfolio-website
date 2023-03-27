@@ -51,8 +51,8 @@ header a {
 }
 header a:hover {
   text-decoration: none;
-  background: #eee;
-  border-radius: 4px;
+  background: rgb(221, 143, 107);
+  border-radius: 15px;
 }
 
 header.active {
@@ -79,8 +79,8 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: rgb(226, 124, 77);
-  border-radius: 50px;
+  color: rgb(221, 143, 107);
+  border-radius: 15px;
 }
 
 .card-img-top {
@@ -116,12 +116,12 @@ a:hover {
   display: inline-block;
   color: #0c0a0a;
   padding: 15px 25px;
-  border: 3px solid rgb(226, 124, 77);
-  border-radius: 30px;
+  border: 3px solid rgb(221, 143, 107);
+  border-radius: 15px;
   transition: 0.5s ease all;
 }
 .btn-rounded-white:hover {
-  color: rgb(226, 124, 77);
+  color: rgb(221, 143, 107);
   background: #000000;
   text-decoration: none;
 }
@@ -148,7 +148,7 @@ a:hover {
 }
 
 .list-group-item {
-  background-color: rgb(226, 124, 77);
+  background-color: rgb(221, 143, 107);
 }
 
 .shadow {
@@ -164,7 +164,7 @@ a:hover {
 
 #about-desc {
   position: relative;
-  background: rgb(226, 124, 77);
+  background: rgb(221, 143, 107);
   color: #000000;
   border-radius: 15px;
   font-size: 17px;
@@ -245,4 +245,10 @@ a:hover {
   animation: pulsate 1.5s ease;
   animation-iteration-count: infinite;
   padding-top: 5px;
+}
+
+#lead-down:hover {
+  text-decoration: none;
+  color: rgb(221, 143, 107);
+  border-radius: 15px;
 }

@@ -28,7 +28,7 @@ function AboutMe() {
         </div>
         <div className="col-md-8" id="about-desc" data-aos="fade-left">
           <p>
-               In 2020 I was curious about blockchain after listening to a podcast,
+            In 2020 I was curious about blockchain after listening to a podcast,
             Crypto 101. Since then, I've explored decentralized applications and
             used smart contracts to expose me to decentralized finance. What
             sparked my interest the most is how decentralized finance is
@@ -36,7 +36,7 @@ function AboutMe() {
             established markets.
           </p>
           <p>
-               With my new interest in finance, I joined Fidelity and gained
+            With my new interest in finance, I joined Fidelity and gained
             valuable interpersonal skills. I assisted an average of 48 customers
             with withdrawing 401k's, taking out loans, and quickly triaged
             problems the customers presented. With this experience and
@@ -45,7 +45,7 @@ function AboutMe() {
             networking and gained encouragement and advice.
           </p>
           <p>
-               In 2022, I attended Consensus, Algorand Developer Portal, and Reach
+            In 2022, I attended Consensus, Algorand Developer Portal, and Reach
             Summit. In 2023, I completed a MERN full-stack certificate.
             Currently, I'm shadowing Shardeum developers, continuously
             learning/practicing, and attending local developer meet-ups in
@@ -53,13 +53,21 @@ function AboutMe() {
             value to an organization that provides me with the opportunity.
           </p>
           <div className="arrow">
-            <Link rel="nofollow" to="projects" spy={true} smooth={true} offset={280}>
+
+          </div>
+          
+        </div>
+        <Link
+              rel="nofollow"
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={280}
+            >
               <span>
                 <i className="las la-angle-down la-3x"></i>
               </span>
             </Link>
-          </div>
-        </div>
       </div>
     </div>
   );
