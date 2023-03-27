@@ -73,13 +73,6 @@ body {
   background: rgb(246, 233, 233);
 }
 
-.card.img {
-  object-fit: contain;
-  height: 100%;
-  width: 100%;
-  object-position: top;
-}
-
 a {
   color: rgba(39, 33, 33, 0.962);
 }
@@ -93,6 +86,8 @@ a:hover {
 .card-img-top {
   height: 200px;
   object-fit: cover;
+
+  object-position: top;
 }
 
 .col-md-4 {
