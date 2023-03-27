@@ -16,11 +16,11 @@ function Skills() {
       <div className="row align-items-center" style={{ height: "100vh" }}>
         <div className="col-12">
           <h2 className="heading">
-            <i className="las la-toolbox la-1x"></i>Skills
+            <i className="las la-toolbox la-3x"></i>Skills
           </h2>
           <ul
             className="list-group list-group-horizontal-xl mt-5"
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
           >
             <li className="list-group-item flex-fill">
               <i className="lab la-html5 la-3x"></i> HTML
@@ -51,7 +51,7 @@ function Skills() {
 
           <ul
             className="list-group list-group-horizontal-xl mt-5"
-            data-aos="zoom-in-up"
+            data-aos="fade-up"
           >
             <li className="list-group-item flex-fill">
               <img src={expressIcon} alt="Redux Icon" /> Express.js

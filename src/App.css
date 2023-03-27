@@ -150,7 +150,8 @@ a:hover {
   background: rgb(226, 124, 77);
   color: #000000;
   border-radius: 15px;
-  font-size: 15px;
+  font-size: 17px;
+  text-align: left;
   line-height: 1.5;
   padding: 20px 20px; /* Add some padding to the left and right sides */
   box-sizing: border-box; /* Make sure padding doesn't increase the element's width */
@@ -164,7 +165,7 @@ a:hover {
 }
 
 #projects h2.heading {
-  margin-top: 120px;
+  margin-top: 140px;
 }
 
 #lead-content {

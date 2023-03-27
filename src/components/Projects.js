@@ -3,10 +3,61 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-scroll";
 
+const projectsList = [
+  {
+    id: 1,
+    title: "Project 1",
+    description:
+      "This is not a project. Wanted to show random cat photos before you check out my projects.",
+    image: "https://loremflickr.com/640/360",
+    link: "https://www.linkedin.com/in/dnlbui/",
+    alt: "Random Cats",
+    button1: "Github",
+    button2: "Live Demo",
+  },
+  {
+    id: 2,
+    title: "Nail Salon Payroll, Invoicing, and Booking System",
+    description:
+      "This is a project I did for a local nail salon. It is a payroll and booking system that allows the owner to manage employees. To practice with the Stripe API I implemented the Stripe API for the customer invoicing. This project was built with React, Redux, Node, Express, MongoDB, and Stripe's invoicing API.",
+    image: "https://loremflickr.com/640/360",
+    link: "https://sleepy-bastion-96890.herokuapp.com/",
+    alt: "Nail Salon Payroll, Invoicing, and Booking System",
+    button1: "Github",
+    button2: "Live Demo",
+  },
+];
+
 function Projects() {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
+
+  const ProjectsCards = () => {
+    return projectsList.map((project) => {
+      return (
+        <div
+          className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center"
+          data-aos="fade-up"
+        >
+          <div className="card">
+            <img
+              src={project.image}
+              className="card-img-top"
+              alt={project.alt}
+            />
+            <div className="card-body">
+              <h5 className="card-title">{project.title}</h5>
+              <p className="card-text">{project.description}</p>
+              <a href={project.link} className="btn btn-primary">
+                {project.button1}
+              </a>
+            </div>
+          </div>
+        </div>
+      );
+    });
+  };
 
   return (
     <div className="container" id="projects">
@@ -20,143 +71,7 @@ function Projects() {
           </h2>
         </div>
 
-        <div
-          className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center"
-          data-aos="zoom-in-up"
-        >
-          <div className="card">
-            <img
-              src="https://loremflickr.com/640/360"
-              className="card-img-top"
-              alt="..."
-            />
-            <div className="card-body ">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="/" className="btn btn-primary">
-                Go somewhere
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div
-          className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center"
-          data-aos="zoom-in-up"
-        >
-          <div className="card">
-            <img
-              src="https://loremflickr.com/640/360"
-              className="card-img-top"
-              alt="..."
-            />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="/" className="btn btn-primary">
-                Go somewhere
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div
-          className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center"
-          data-aos="zoom-in-up"
-        >
-          <div className="card">
-            <img
-              src="https://loremflickr.com/640/360"
-              className="card-img-top"
-              alt="..."
-            />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="/" className="btn btn-primary">
-                Go somewhere
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div
-          className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center"
-          data-aos="zoom-in-up"
-        >
-          <div className="card">
-            <img
-              src="https://loremflickr.com/640/360"
-              className="card-img-top"
-              alt="..."
-            />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="/" className="btn btn-primary">
-                Go somewhere
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div
-          className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center"
-          data-aos="zoom-in-up"
-        >
-          <div className="card">
-            <img
-              src="https://loremflickr.com/640/360"
-              className="card-img-top"
-              alt="..."
-            />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="/" className="btn btn-primary">
-                Go somewhere
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div
-          className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center"
-          data-aos="zoom-in-up"
-        >
-          <div className="card">
-            <img
-              src="https://loremflickr.com/640/360"
-              className="card-img-top"
-              alt="..."
-            />
-            <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="/" className="btn btn-primary">
-                Go somewhere
-              </a>
-            </div>
-          </div>
-        </div>
+        <ProjectsCards />
       </div>
 
       <div className="arrow">
