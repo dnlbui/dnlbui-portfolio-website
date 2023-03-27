@@ -47,26 +47,26 @@ function Projects() {
           data-aos="fade-up"
           key={project.key}
         >
-          <div class="card">
-            <img src={project.image} class="card-img-top" alt={project.title} />
-            <div class="card-body">
-              <h5 class="card-title">{project.title}</h5>
-              <p class="card-text">{project.description}</p>
+          <div className="card">
+            <img src={project.image} className="card-img-top" alt={project.title} />
+            <div className="card-body">
+              <h5 className="card-title">{project.title}</h5>
+              <p className="card-text">{project.description}</p>
             </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item" style={{ backgroundColor: "white" }}>
+            <ul className="list-group list-group-flush">
+              <li className="list-group-item" style={{ backgroundColor: "white" }}>
                 Technology
               </li>
-              <li class="list-group-item" style={{ backgroundColor: "white" }}>
+              <li className="list-group-item" style={{ backgroundColor: "white" }}>
                 {project.tech}
               </li>
             </ul>
-            <div class="card-links">
-              <div class="card-body" >
-                <a href={project.githubLink} class="card-link">
+            <div className="card-links">
+              <div className="card-body" >
+                <a href={project.githubLink} className="card-link">
                   {project.githubLink === "" ? "" : "Github"}
                 </a>
-                <a href={project.liveLink} class="card-link">
+                <a href={project.liveLink} className="card-link">
                   {project.liveLink === "" ? "" : "Live Demo"}
                 </a>
               </div>
