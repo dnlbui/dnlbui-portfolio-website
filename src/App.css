@@ -73,7 +73,7 @@ body {
   background: rgb(246, 233, 233);
 }
 
-img {
+.card.img {
   object-fit: contain;
   height: 100%;
   width: 100%;

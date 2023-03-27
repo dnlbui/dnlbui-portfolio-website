@@ -13,7 +13,7 @@ const projectsList = [
     id: 1,
     title: "Project 1",
     description:
-      "Thank you for checking out my projects. I am currently working on a project that I will be able to showcase soon. Here are some random cats. I'd love to connect on LinkedIn or Github.",
+      "Thank you for checking out my projects. Here are some random cats. Let's connect on LinkedIn!",
     tech: "Cats",
     image: "https://loremflickr.com/640/360",
     liveLink: "https://www.linkedin.com/in/dnlbui/",
