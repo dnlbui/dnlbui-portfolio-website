@@ -57,6 +57,7 @@ function AboutMe() {
           </div>
           
         </div>
+        <div id="lead-down-2">
         <Link
               rel="nofollow"
               to="projects"
@@ -68,6 +69,7 @@ function AboutMe() {
                 <i className="las la-angle-down la-3x"></i>
               </span>
             </Link>
+            </div>
       </div>
     </div>
   );

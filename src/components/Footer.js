@@ -7,12 +7,13 @@ function Footer() {
         <div className="col-md-4 d-flex align-items-center">
           <span className="mb-3 mb-md-0 text-muted">© 2023 Daniel Bui Inc</span>
         </div>
-
+        <div id="lead-down-2">
         <Link rel="nofollow" to="homescreen" spy={true} smooth={true}>
           <span>
             <i className="las la-angle-double-up la-3x"></i>
           </span>
         </Link>
+        </div>
 
         <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
           <li className="ms-3">

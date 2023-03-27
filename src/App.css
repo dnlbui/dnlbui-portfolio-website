@@ -162,6 +162,12 @@ a:hover {
   transform: translateX(-50%);
 }
 
+.arrow:hover {
+  text-decoration: none;
+  color: rgb(221, 143, 107);
+  border-radius: 15px;
+}
+
 #about-desc {
   position: relative;
   background: rgb(221, 143, 107);
@@ -248,6 +254,12 @@ a:hover {
 }
 
 #lead-down:hover {
+  text-decoration: none;
+  color: rgb(221, 143, 107);
+  border-radius: 15px;
+}
+
+#lead-down-2:hover {
   text-decoration: none;
   color: rgb(221, 143, 107);
   border-radius: 15px;
