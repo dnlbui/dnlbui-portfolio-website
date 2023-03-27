@@ -12,7 +12,8 @@ const projectsList = [
       "This is not a project. Wanted to show random cat photos before you check out my projects.",
     tech: "Cats",
     image: "https://loremflickr.com/640/360",
-    link: "https://www.linkedin.com/in/dnlbui/",
+    liveLink: "",
+    githubLink: "",
     alt: "Random Cats",
     button1: "Github",
     button2: "Live Demo",
@@ -25,7 +26,8 @@ const projectsList = [
       "This project is a payroll and booking system that allows the owner to manage employees. Implemented the Stripe API for the customer invoicing.",
     tech: "React, Redux, Node, Express, MongoDB, and Stripe's invoicing API.",
     image: "https://loremflickr.com/640/360",
-    link: "https://sleepy-bastion-96890.herokuapp.com/",
+    liveLink: "https://sleepy-bastion-96890.herokuapp.com/",
+    githubLink: "https://github.com/dnlbui/lsnail-payroll-app",
     alt: "Nail Salon Payroll, Invoicing, and Booking System",
     button1: "Github",
     button2: "Live Demo",
@@ -49,21 +51,25 @@ function Projects() {
             <img src={project.image} class="card-img-top" alt={project.title} />
             <div class="card-body">
               <h5 class="card-title">{project.title}</h5>
-              <p class="card-text">
-                {project.description}
-              </p>
+              <p class="card-text">{project.description}</p>
             </div>
-            <ul class="list-group list-group-flush" >
-              <li class="list-group-item" style={{backgroundColor: "white"}}>Technology</li>
-              <li class="list-group-item" style={{backgroundColor: "white"}}>{project.tech}</li>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item" style={{ backgroundColor: "white" }}>
+                Technology
+              </li>
+              <li class="list-group-item" style={{ backgroundColor: "white" }}>
+                {project.tech}
+              </li>
             </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">
-                GitHub
-              </a>
-              <a href="#" class="card-link">
-                Live Demo
-              </a>
+            <div class="card-links">
+              <div class="card-body" >
+                <a href={project.githubLink} class="card-link">
+                  {project.githubLink === "" ? "" : "Github"}
+                </a>
+                <a href={project.liveLink} class="card-link">
+                  {project.liveLink === "" ? "" : "Live Demo"}
+                </a>
+              </div>
             </div>
           </div>
         </div>

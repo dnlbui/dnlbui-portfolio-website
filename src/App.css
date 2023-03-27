@@ -125,6 +125,15 @@ a:hover {
   height: 560px;
 }
 
+.card-links {
+  display: flex;
+  align-items: center;
+}
+
+.card-links .card-body {
+  flex: 1;
+}
+
 @media screen and (min-width: 768px) {
   .card {
     width: 365px;
