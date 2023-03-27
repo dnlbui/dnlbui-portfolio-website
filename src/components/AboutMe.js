@@ -53,7 +53,7 @@ function AboutMe() {
             value to an organization that provides me with the opportunity.
           </p>
           <div className="arrow">
-            <Link rel="nofollow" to="projects" spy={true} smooth={true} offset={150}>
+            <Link rel="nofollow" to="projects" spy={true} smooth={true} offset={280}>
               <span>
                 <i className="las la-angle-down la-3x"></i>
               </span>
