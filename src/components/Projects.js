@@ -11,7 +11,7 @@ import productListImage from "../images/product-list.png";
 const projectsList = [
   {
     id: 1,
-    title: "Project 1",
+    title: "Refresh if the photo is not a cat :)",
     description:
       "Thank you for checking out my projects. Here are some random cats. Let's connect on LinkedIn!",
     tech: "Cats",
@@ -62,7 +62,7 @@ const projectsList = [
   {
     id: 5,
     title: "Product List",
-    description: "This is a simple web application that allows users to view an auto-populated list of products and their details.",
+    description: "This is a simple web application that allows users to filter through generated data by using an auto-populated dropdown query.",
     tech: "React, Redux, Node, Express, Bootstrap, and MongoDB.",
     image: productListImage,
     liveLink: "",
@@ -92,7 +92,7 @@ function Projects() {
             :<img src={project.image} className="card-img-top" alt={project.title} /> 
             }
             <div className="card-body">
-              <h5 className="card-title">{project.title}</h5>
+              <h5 className="card-title"><b>{project.title}</b></h5>
               <p className="card-text">{project.description}</p>
             </div>
             <ul className="list-group list-group-flush">
