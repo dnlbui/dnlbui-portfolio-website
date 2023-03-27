@@ -14,10 +14,9 @@ This website was built using:
 
 ## Features
 
-- Home page with brief summary and links to projects, skills, and contact page
-- Projects page with descriptions and live links to my web development projects
-- Skills page with a list of my technical skills
-- Contact page with a form to send me a message
+- Home section with brief summary and links to projects, skills, and contact page
+- Projects section with descriptions and live links to my web development projects
+- Skills section with a list of my technical skills
 
 ## Getting Started
 
