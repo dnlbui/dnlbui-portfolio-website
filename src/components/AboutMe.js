@@ -26,7 +26,7 @@ function AboutMe() {
             My Resume
           </a>
         </div>
-        <div className="col-md-8" id="about-desc" data-aos="fade-left">
+        <div className="col-md-8" id="about-desc" data-aos="zoom-in-up">
           <p>
             In 2020 I was curious about blockchain after listening to a podcast,
             Crypto 101. Since then, I've explored decentralized applications and
