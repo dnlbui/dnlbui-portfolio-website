@@ -6,9 +6,11 @@ import { Link } from "react-scroll";
 const projectsList = [
   {
     id: 1,
+    key: 1,
     title: "Project 1",
     description:
       "This is not a project. Wanted to show random cat photos before you check out my projects.",
+    tech: "Cats",
     image: "https://loremflickr.com/640/360",
     link: "https://www.linkedin.com/in/dnlbui/",
     alt: "Random Cats",
@@ -17,9 +19,11 @@ const projectsList = [
   },
   {
     id: 2,
+    key: 2,
     title: "Nail Salon Payroll, Invoicing, and Booking System",
     description:
-      "This is a project I did for a local nail salon. It is a payroll and booking system that allows the owner to manage employees. To practice with the Stripe API I implemented the Stripe API for the customer invoicing. This project was built with React, Redux, Node, Express, MongoDB, and Stripe's invoicing API.",
+      "This project is a payroll and booking system that allows the owner to manage employees. Implemented the Stripe API for the customer invoicing.",
+    tech: "React, Redux, Node, Express, MongoDB, and Stripe's invoicing API.",
     image: "https://loremflickr.com/640/360",
     link: "https://sleepy-bastion-96890.herokuapp.com/",
     alt: "Nail Salon Payroll, Invoicing, and Booking System",
@@ -39,18 +43,26 @@ function Projects() {
         <div
           className="col-sm-12 col-md-12 col-lg-4 mt-3 align-self-center"
           data-aos="fade-up"
+          key={project.key}
         >
-          <div className="card">
-            <img
-              src={project.image}
-              className="card-img-top"
-              alt={project.alt}
-            />
-            <div className="card-body">
-              <h5 className="card-title">{project.title}</h5>
-              <p className="card-text">{project.description}</p>
-              <a href={project.link} className="btn btn-primary">
-                {project.button1}
+          <div class="card">
+            <img src={project.image} class="card-img-top" alt={project.title} />
+            <div class="card-body">
+              <h5 class="card-title">{project.title}</h5>
+              <p class="card-text">
+                {project.description}
+              </p>
+            </div>
+            <ul class="list-group list-group-flush" >
+              <li class="list-group-item" style={{backgroundColor: "white"}}>Technology</li>
+              <li class="list-group-item" style={{backgroundColor: "white"}}>{project.tech}</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">
+                GitHub
+              </a>
+              <a href="#" class="card-link">
+                Live Demo
               </a>
             </div>
           </div>
@@ -70,8 +82,9 @@ function Projects() {
             <i className="las la-laptop-code la-3x"></i> Projects
           </h2>
         </div>
-
-        <ProjectsCards />
+        <div className="row">
+          <ProjectsCards />
+        </div>
       </div>
 
       <div className="arrow">
