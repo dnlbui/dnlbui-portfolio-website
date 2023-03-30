@@ -5,7 +5,7 @@ function Footer() {
     <div className="container">
       <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div className="col-md-4 d-flex align-items-center">
-          <span className="mb-3 mb-md-0 text-muted">© 2023 Daniel Bui Inc</span>
+          <span className="mb-3 mb-md-0" style={{color: "#0c0a0a"}} >© 2023 Daniel Bui Inc</span>
         </div>
         <div id="lead-down-2">
         <Link rel="nofollow" to="homescreen" spy={true} smooth={true}>
@@ -25,7 +25,7 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="lab la-github la-2x"></i>
+              <i className="lab la-github la-2x" style={{color: "#0c0a0a"}}></i>
             </a>
           </li>
           <li className="ms-3">
@@ -37,7 +37,7 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="lab la-linkedin-in la-2x"></i>
+              <i className="lab la-linkedin-in la-2x" style={{color: "#0c0a0a"}}></i>
             </a>
           </li>
           <li className="ms-3">
@@ -48,7 +48,7 @@ function Footer() {
               href="mailto:dnlbui@proton.me?Subject=Hey Daniel, "
               rel="noopener noreferrer"
             >
-              <i className="las la-envelope la-2x"></i>
+              <i className="las la-envelope la-2x" style={{color: "#0c0a0a"}}></i>
             </a>
           </li>
         </ul>

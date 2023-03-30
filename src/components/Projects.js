@@ -96,10 +96,10 @@ function Projects() {
               <p className="card-text">{project.description}</p>
             </div>
             <ul className="list-group list-group-flush">
-              <li className="list-group-item" style={{ backgroundColor: "white" }}>
+              <li className="list-group-item" style={{ backgroundColor: "rgba(246, 233, 233, 0.166)"}}>
                 <b>Technology</b>
               </li>
-              <li className="list-group-item" style={{ backgroundColor: "white" }}>
+              <li className="list-group-item" style={{ backgroundColor: "rgba(246, 233, 233, 0.166)" }}>
                 {project.tech}
               </li>
             </ul>
